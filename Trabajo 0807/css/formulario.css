@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+  
+nav{
+    background-color: rgba(119, 136, 153, 0.212);
+
+    width: 100vw;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float: right;
+}
+
+.lista a:hover{
+    background-color: tomato;
+}
+
+
+  body{
+        background-image: url(http://www.colores.org.es/imagenes_colores/amarillo-claro.jpg);
+        height: 96vh;
+        width: 97vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    
+
+    
+    .menu{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    .lista a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        display: inline-block;
+        padding: 15px;
+    }
+    
+    .menu .lista{
+        display: inline-block;
+    }
+    
+    .lista-r{
+        float: right;
+    }
+    
+    .lista a:hover{
+        background-color: rgb(255, 253, 122);
+        color: black;
+        font-size: 40px;
+    }
+    
+    img{
+        width: 70px;
+        height: 70px;
+    }
+
+    
+    .container{
+    
+        
+        width: 98vw;
+        height: 50%;
+        margin: 15px;
+
+    }
+
+    
+    
+    p{
+         text-align: center;
+        color: black;
+        font-size: 32px;
+        font-weight: 600;
+    
+    }
+    
+    .uno{
+        margin-top: 20px;
+        justify-content: space-around;
+        
+        
+    }
+
+    .uno label{
+        margin-left: 5%;
+      margin-top: 90px;
+      text-align: left;
+      margin-top: 10px;
+      font-size: 20px;
+      color: black;
+    }
+
+    .uno input{
+        background-color: rgba(22, 66, 110, 0.9);
+        color: white;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 40px;
+
+    }
+
+    .uno  input::placeholder{
+        color: rgb(161, 161, 161);
+    }
+
+    .uno input:focus{
+        color: white;
+        outline: none;
+        background-color: rgba(22, 66, 110, 0.9);
+    }
+
+    .dos{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+    justify-content: space-evenly;
+   
+            
+       
+    }
+
+    .dos label{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: black;
+
+    }
+
+    .dos input{
+        height: 40px;
+        width: 380px;
+        background-color: rgba(22, 66, 110, 0.9);
+        color: white;
+        margin-top: 5px;
+        display: block;
+        justify-content: center;
+       
+    }
+
+    .dos input::placeholder{
+        color: rgb(161, 161, 161);
+    }
+
+    .dos input:focus{
+        color: white;
+        outline: none;
+        background-color: rgba(22, 66, 110, 0.9);
+    }
+
+    .tres{
+        margin-top: 25px;
+            display: flex;
+            justify-content: space-evenly;
+            
+       
+    }
+
+    .tres label{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: black;
+
+    }
+
+    .tres input{
+        background-color: rgba(22, 66, 110, 0.9);
+        color: white;
+        margin-top: 5px;
+        display: block;
+        justify-content: center;
+        width: 400px;
+        height: 45px;
+    }
+
+    .tres input::placeholder{
+        color: rgb(161, 161, 161);
+    }
+
+    .tres input:focus{
+        color: white;
+        outline: none;
+        background-color: rgba(22, 66, 110, 0.9);
+    }
+    
+    
+    
+    button{
+        font-size: 30px;
+        margin-top: 30px;
+        background-color: red;
+        color: white;
+        margin-left:48% ;
+        margin-right:48% ;
+    }
